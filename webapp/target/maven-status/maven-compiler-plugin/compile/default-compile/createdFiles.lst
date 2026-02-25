@@ -1,5 +1,0 @@
-com\login\LoginWebApplication.class
-com\login\model\User.class
-com\login\web\controller\AuthController.class
-com\login\service\AuthenticationService.class
-com\login\service\UserDatabase.class

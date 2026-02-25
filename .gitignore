@@ -1,56 +1,25 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package files
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# JVM crash logs
-hs_err_pid*
-replay_pid*
-
-# Maven build output
+# Maven/Java build output
 target/
 **/target/
+*.class
+
+# Logs and JVM crash dumps
+*.log
+hs_err_pid*
+replay_pid*
 
 # IDE/editor settings
 .vscode/
 .idea/
 *.iml
 
-# Runtime/app data
-data/
-webapp/data/
-
-# Keep GitHub metadata trackable
-!/.github/
-!/.github/**
-!/webapp/.github/
-!/webapp/.github/**
-
-# Ignore only local Java upgrade artifacts
-/webapp/.github/java-upgrade/
-
 # OS files
 Thumbs.db
 .DS_Store
 
-# Final safeguard: never ignore GitHub workflow folders
-!/.github/
-!/.github/**
-!/webapp/.github/
-!/webapp/.github/**
+# Local environment/secrets
+.env
+.env.*
+
+# Optional local-only files
+*.tmp
